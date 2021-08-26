@@ -1,7 +1,13 @@
 package no.kristiania;
 
 public class convertToRoman {
-    public String toRoman(int field) {
+    private final int field;
+
+    public convertToRoman(int field) {
+        this.field = field;
+    }
+
+    public String getRoman() {
         return "I";
     }
 }
